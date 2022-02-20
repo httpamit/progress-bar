@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.progress-bar {
+  background-color: #fefefe;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  height: 30px;
+  width: 500px;
+  max-width: 100%;
+}
+
+.progress {
+  background: #ad5389;
+  background: -webkit-linear-gradient(to bottom, red, #af93a4);
+  background: linear-gradient(to bottom, #e9558e, #eeb8d8);
+  border-radius: 5px;
+  height: 30px;
+  width: 0;
+  transition: width 0.5s ease-in;
+}
+
+.progress--blue {
+  background: #ad5389;
+  background: -webkit-linear-gradient(to bottom, red, #af93a4);
+  background: linear-gradient(to bottom, blue, #eeb8d8);
+  border-radius: 5px;
+  height: 30px;
+  width: 0;
+  transition: width 0.5s ease-in;
+}
+
+.progress--green {
+  background: #ad5389;
+  background: -webkit-linear-gradient(to bottom, red, #af93a4);
+  background: linear-gradient(to bottom, green, #eeb8d8);
+  border-radius: 5px;
+  height: 30px;
+  width: 0;
+  transition: width 0.5s ease-in;
+}
+
+.done-button {
+  border: 0px;
+  background: -webkit-linear-gradient(to bottom, red, #af93a4);
+  background: linear-gradient(to bottom, #e9558e, #eeb8d8);
+  color: black;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
