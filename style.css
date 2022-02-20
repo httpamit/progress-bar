@@ -29,8 +29,6 @@ h2 {
 
 .progress {
   background: #ad5389;
-  background: -webkit-linear-gradient(to bottom, red, #af93a4);
-  background: linear-gradient(to bottom, #e9558e, #eeb8d8);
   border-radius: 5px;
   height: 30px;
   width: 0;
@@ -38,29 +36,24 @@ h2 {
 }
 
 .progress--blue {
-  background: #ad5389;
-  background: -webkit-linear-gradient(to bottom, red, #af93a4);
-  background: linear-gradient(to bottom, blue, #eeb8d8);
-  border-radius: 5px;
-  height: 30px;
-  width: 0;
-  transition: width 0.5s ease-in;
+  background: blue;
+}
+
+.progress--red {
+  background: red;
 }
 
 .progress--green {
-  background: #ad5389;
-  background: -webkit-linear-gradient(to bottom, red, #af93a4);
-  background: linear-gradient(to bottom, green, #eeb8d8);
-  border-radius: 5px;
-  height: 30px;
-  width: 0;
-  transition: width 0.5s ease-in;
+  background: green;
+}
+
+.progress--yellow {
+  background: yellow;
 }
 
 .done-button {
   border: 0px;
-  background: -webkit-linear-gradient(to bottom, red, #af93a4);
-  background: linear-gradient(to bottom, #e9558e, #eeb8d8);
+  background: #ccc;
   color: black;
   padding: 10px 25px;
   border-radius: 5px;
